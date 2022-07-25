@@ -22,7 +22,7 @@ const Skills = () => {
   ));
 
   const frameWroksList = frameWorks.map((item, index) => (
-    <li className="text-xl">
+    <li className="text-xl" key={index}>
       <span>
         {item} {index === frameWorks.length - 1 ? "" : ","}
         &nbsp;
@@ -31,7 +31,7 @@ const Skills = () => {
   ));
 
   const librariesList = libraries.map((item, index) => (
-    <li className="text-xl">
+    <li className="text-xl" key={index}>
       <span>
         {item} {index === libraries.length - 1 ? "" : ","}
         &nbsp;
@@ -39,7 +39,7 @@ const Skills = () => {
     </li>
   ));
   return (
-    <div className="min-h-screen py-48 flex flex-col justify-between">
+    <div className="min-h-screen py-48 flex flex-col justify-between gap-y-2">
       <div className="flex flex-col md:flex-row items-center gap-x-8 gap-y-2 animate-fadInTopBasic1">
         <h1 className="text-3xl md:text-5xl ">Languages:</h1>
         <ul className=" p-0 flex flex-wrap max-w-sm justify-center md:max-w-full">

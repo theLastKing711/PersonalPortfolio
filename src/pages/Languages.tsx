@@ -3,7 +3,7 @@ import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 
 const Languages = () => {
   return (
-    <div className="h-screen py-32">
+    <div className="h-screen py-32 overflow-hidden">
       <div className="flex flex-col items-center gap-40 h-full md:flex-row justify-center">
         <div>
           <h1 className="text-3xl md:text-7xl animate-fadeInLeft mb-8 ">

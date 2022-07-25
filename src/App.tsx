@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <div className="flex flex-col justify-center space-y-10 items-center py-32  md:flex-row-reverse h-screen">
+      <div className="flex flex-col justify-center space-y-10 items-center py-32  md:flex-row-reverse h-screen overflow-hidden">
         <div className="w-3/4 md:w-2/5 animate-fadeInRight">
           <img src="spiky.jpeg" alt="" className="w-full rounded-full" />
         </div>
