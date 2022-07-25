@@ -9,20 +9,24 @@ module.exports = {
           "0%": {
             transform: "translate(100%)",
             opacity: 0,
+            position: "absoulte",
           },
           "100%": {
             transform: "translate(0px)",
             opacity: 1,
+            position: "relative",
           },
         },
         fadeInLeft: {
           "0%": {
             transform: "translate(-100%)",
             opacity: 0,
+            position: "absoulte",
           },
           "100%": {
             transform: "translate(0px)",
             opacity: 1,
+            position: "relative",
           },
         },
         fadeInBottom: {

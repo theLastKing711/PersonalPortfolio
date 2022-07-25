@@ -15,7 +15,7 @@ const libraries = [
 
 const Skills = () => {
   const languagesList = languages.map((item, index) => (
-    <li className="text-xl">
+    <li className="text-xl" key={index}>
       {item} {index === languages.length - 1 ? "." : ","}
       &nbsp;
     </li>

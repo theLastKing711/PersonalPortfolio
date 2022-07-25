@@ -31,8 +31,9 @@ const Header = () => {
     />
   );
 
-  const routeItems = routes.map((item) => (
+  const routeItems = routes.map((item, index) => (
     <li
+      key={index}
       className={`${
         activeRoute === item.name ? "text-slate-400" : ""
       } text-2xl cursor-pointer my-8 transition-colors hover:text-slate-400 animate-fadeInBottom4`}
