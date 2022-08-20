@@ -9,7 +9,7 @@ function App() {
         </div>
         <div className="text-center  animate-fadeInLeft  md:w-3/5 md:text-left">
           <h1 className="text-3xl md:text-6xl mt-auto">
-            Hello, I'm Bacher Jiroudi
+            Hello, I'm Besher Jeiroudi
           </h1>
           <p className="text-lg md:text-2xl mt-7">
             I'm a fullstack developer Living in Syria Aleppo.
